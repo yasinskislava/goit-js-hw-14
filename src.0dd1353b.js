@@ -5448,4 +5448,3 @@ filterQuantity.addEventListener("click", function () {
   products.innerHTML = createList(_data.default);
 });
 },{"./template.hbs":"QM62","./data.json":"boCh","console":"wOzr"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-14/src.52277ba2.js.map
