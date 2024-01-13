@@ -9,9 +9,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --no-minify --public-url /goit-js-hw-14",
-    "predeploy": "npm run build",
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --no-minify --no-source-maps --public-url ./",
+    "predeploy": "rm -rf dist && npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
