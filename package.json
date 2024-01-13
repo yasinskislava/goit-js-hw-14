@@ -1,0 +1,37 @@
+{
+  "name": "goit-js-hw-14",
+  "version": "1.0.0",
+  "description": "",
+  "transformers": {
+    "*.hbs": [
+      "parcel-transformer-hbs"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --no-minify --public-url /goit-js-hw-14",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasinskislava/goit-js-hw-14.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasinskislava/goit-js-hw-14/issues"
+  },
+  "homepage": "https://github.com/yasinskislava/goit-js-hw-14#readme",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.11.0",
+    "parcel-transformer-hbs": "^1.0.4"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  }
+}
